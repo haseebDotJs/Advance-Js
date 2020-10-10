@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 7</title>
+</head>
+<body>
+    <style>
+        *{
+            font-family: 'Courier New', Courier, monospace;
+        }
+        .invalid{
+            color: red;
+            visibility: hidden;
+        }
+    </style>
+  <form method="POST">
+    <label>Phone Number: </label><input class="phone" type="text" value="92"/> <label class="invalid">Invalid Phone Number</label>
+    <br/>
+    <br/>
+    <label>NIC: </label>   <input class="nic" type="text"/> <label class="invalid">Invalid NIC</label>
+    <br/>
+    <br/>
+    <label>Name: </label> <input class="name" type="text"/> <label class="invalid">Please write a valid name</label>
+    <br/>
+    <br/>
+    <input class="submit"type="submit" value="Submit"/>
+  </form>
+
+    <script type="text/javascript" src="task7.js"></script>
+</body>
+</html>
