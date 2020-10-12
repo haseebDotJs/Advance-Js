@@ -2,10 +2,10 @@ let names = ["mango","haseeb","banana","mango","pineapple","lion","haseeb","fooo
 console.log(typeof(names));
 
 let setting = new Set(names)
-console.log(setting);
+console.log(typeof setting, setting);
 
-setting.delete("haseeb")
-console.log(setting);
+// setting.delete("haseeb")
+// console.log(setting);
 
 setting.add("haseeb")
 console.log(setting);
