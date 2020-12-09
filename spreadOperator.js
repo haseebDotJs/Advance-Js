@@ -27,3 +27,15 @@ myObj2.name = "Abdul Haseeb"
 console.log(obj);
 console.log(myObj2);
 console.log(myObj3);
+let oldObj = {
+    age: 15,
+    class: "9th"
+}
+let newObj = {
+   ...oldObj,
+   age: 17
+}
+let arr = [1,2,3,4]
+let [...arr2] = 
+console.log(arr2);
+console.log(newObj);

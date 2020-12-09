@@ -133,3 +133,31 @@ console.log("trying ", trying );
 
 
 // firstOwner.change()
+
+// how props works in class component
+
+// class practice{
+//   constructor(props) {
+//     this.props = {
+//       Name: props.name,
+//       friend1: props.friend1,
+//       friend2: props.friend2
+//      } 
+//   }
+//   access() {
+//     console.log(this.props.friend2);
+//   }
+// }
+// let makingObj = new practice({name: 'haseeeb', friend1: 'subhan',friend2:'moiz'})
+// makingObj.access()
+
+// {destructuring array's}
+
+// let [loggingName,name] = [function name(name='John Cena'){console.log(name); return name},'haseeb']
+// console.log(loggingName());
+
+// console.log(arr21[1]('haseeb'));
+
+let timer = () => console.log('hello')
+
+// console.log(timer);

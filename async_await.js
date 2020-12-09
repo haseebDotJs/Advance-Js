@@ -41,7 +41,6 @@ let enrollNew = (student) => {
       )
     }, 2000)
   })
-
 }
 let showStd = () => {
   setTimeout(() => {
@@ -62,3 +61,6 @@ let showStd = () => {
 }
 let newStd = {
   name: "moiz", subject: "english", standard: 5
+}
+
+// enrollNew().then(showStd())

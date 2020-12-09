@@ -12,6 +12,18 @@ let myObj = {
         islamiat: 67
     }     
 }
+
+
+let {matric :{physics: {theory: thy,practical: prac}}} = myObj
+console.log('theory nums ', thy);
+console.log('practical nums ', prac);
+console.log('total nums ', thy + prac);
+
+
+
+
+
+
 let myArr = ["haseeeb", "matric", 17]
 let [,,age] = myArr//skipping 1st and 2nd value in array and accesssing thirs value
 console.log(age);

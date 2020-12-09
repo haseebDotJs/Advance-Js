@@ -38,5 +38,15 @@ myObj.age = 17
 console.log(myObj);
 
 const name = "haseeb" //passed value "haseeb"
-name = "abdul haseeb"
-console.log(name);
+// name = "abdul haseeb"
+// console.log(name);
+
+const myArr1 = [1,2,3,4]
+const myArr2 = [1,2,3,4]
+console.log(typeof myArr1);
+console.log(myArr1 === myArr2);//return false bcz address is saved in js memory not their values
+// myArr[2] = 24
+// console.log(myArr1);
+
+// non-primitve data types: objects and arrays (changable/mutable)
+// primitve data types: other than objects and array all are primitve (inchangable/immutable)

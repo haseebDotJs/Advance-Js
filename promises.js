@@ -1,6 +1,6 @@
 let func = new Promise((resolve,reject) => {
    let err = true;
-   if(err === false){
+   if(!err){
      resolve("The promise has been resolved")
    }
    else{
