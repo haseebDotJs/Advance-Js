@@ -1,13 +1,13 @@
 let func = new Promise((resolve,reject) => {
    let err = true;
    if(!err){
-     resolve("The promise has been resolved")
+     resolve("The promise has been resolved") 
    }
    else{
      reject()
    }
 })
-func.then(result => console.log(result)).catch(err => console.log("Request Failed!"))
+func.then(result => console.log(result)).catch(err => console.log(err, "Request Failed!"))
 
 //  let func1 = () => {
 //   return new Promise((resolve, reject) => {
